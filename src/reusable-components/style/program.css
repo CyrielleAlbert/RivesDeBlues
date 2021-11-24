@@ -1,0 +1,37 @@
+﻿.titre {
+    font-family: 'DM Serif Display';
+    font-size: 42px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.groupe {
+    display: flex;
+    flex-direction: row;
+}
+
+.moitie1 {
+    width: 50%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.moitie2 {
+    width: 50%;
+    overflow: hidden;
+}
+
+.desc {
+    font-size: 15px;
+    font-family: 'Roboto';
+    padding: 10px;
+}
+
+.nomGr {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}

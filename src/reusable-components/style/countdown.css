@@ -1,0 +1,26 @@
+﻿.group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: white;
+}
+
+.num {
+    display: flex;
+    margin: 15px;
+}
+
+.rectangle {
+    font-family: 'Roboto';
+    font-size: 35px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin: 2px;
+    background: linear-gradient(180deg, #0A0E31 0%, #384085 53.65%, #0A0E31 100%);
+    color: white
+}

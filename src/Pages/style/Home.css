@@ -1,0 +1,55 @@
+﻿.background {
+    position: relative;
+    margin-top: -75px;
+    left: 0px;
+    z-index: -100;
+    bottom: 0;
+    padding-bottom: 0;
+}
+
+.content {
+    position: absolute;
+    z-index: 100;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    font-family: 'Roboto';
+}
+
+.accroche {
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    width: 60%;
+}
+
+.countdown {
+    color: white;
+    margin-top: 15px;
+}
+
+.bouton1 {
+    background-color: white;
+    color: #0A0E31;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 75px;
+    border-radius: 5px;
+}
+
+.programme-title {
+    font-size: 48px;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    margin-top: -5px;
+}
