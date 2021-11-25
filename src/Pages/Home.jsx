@@ -4,6 +4,7 @@ import Countdown from '../reusable-components/countdown';
 import Programme from '../reusable-components/program';
 import infoGroupes from "../Infos/Programmation.json";
 import InfosPratiques from '../reusable-components/infosPratiques';
+import Billetterie from '../reusable-components/billetterie';
 
 function Home(props) {
 
@@ -27,11 +28,15 @@ function Home(props) {
                 <Programme titre={"Samedi soir"} infoGroupes={{ "groupe1": { ...infoGroupes["groupe4"] }, "groupe2": { ...infoGroupes["groupe5"] }, "groupe3": { ...infoGroupes["groupe6"] } }}></Programme>
 
             </div>
+            <div className="billetterie">
+                <div className="title" style={{color:"white"}}>Billetterie</div>
+                <Billetterie></Billetterie>
+
+            </div>
             <div>
                 <div className="title">Infos pratiques</div>
                 <InfosPratiques></InfosPratiques>
             </div>
-            <div>Hello</div>
 
         </div>
     )

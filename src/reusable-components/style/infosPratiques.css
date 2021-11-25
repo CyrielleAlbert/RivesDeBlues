@@ -21,7 +21,17 @@
     padding: 10px;
 }
 
-.content-4 {}
+.content-4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.restauration {
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: auto;
+}
 
 .content-5 {
     font-family: "Roboto";

@@ -12,6 +12,10 @@ function InfosPratiques() {
             </div>
             <div className="titre-info-p">Restauration sur place</div>
             <div className="content-4">
+                <div className="restauration">
+                    <img src="./Images/foodTruck.jpg" width={"100%"}/>
+                </div>
+                <div className="restauration"></div>
 
             </div>
             <div className="titre-info-p">Accès</div>

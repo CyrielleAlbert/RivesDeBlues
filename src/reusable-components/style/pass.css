@@ -1,0 +1,55 @@
+﻿.pass {
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+}
+
+.intitule {
+    background-color: #95C0FF;
+    font-size: 25px;
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 20%;
+    border-radius: 12px 12px 0 0;
+}
+
+.content-6 {
+    background-color: white;
+    font-family: 'Roboto';
+    width: 100%;
+    height: 80%;
+    border-radius: 0 0 12px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    align-items: center;
+}
+
+.prix {
+    font-size: 35px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.reduc {
+    font-size: 20px;
+    text-decoration: line-through;
+    margin-left: 15px;
+}
+
+.CTA-3 {
+    background-color: #141948;
+    color: white;
+    width: fit-content;
+    padding: 5px 20px 5px 20px;
+    border-radius: 6px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
