@@ -1,4 +1,6 @@
 ﻿import "./style/pass.css"
+import { ReactComponent as BilletSVG} from './../Icons/coupon.svg'
+
 function Pass(props) {
     console.log(props.reduction)
     return(
@@ -8,7 +10,10 @@ function Pass(props) {
                 <div className="prix">{props.prix} 
                 {props.reduction !== undefined && <div className="reduc">{props.reduction}</div>}
                 </div>
-                <div className="CTA-3">Acheter</div> 
+                <div className="CTA-3">
+                    <BilletSVG fill="#FFF" width={20} height={20} style={{marginRight:10,position:"relative",top:4}}/>
+                    Acheter
+                </div> 
             </div> 
         </div>
     )

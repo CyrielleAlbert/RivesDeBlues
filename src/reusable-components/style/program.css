@@ -3,7 +3,8 @@
     font-size: 42px;
     width: 100%;
     text-align: center;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .groupe {
