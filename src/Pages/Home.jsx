@@ -2,7 +2,9 @@
 import './style/Home.css';
 import Countdown from '../reusable-components/countdown';
 import Programme from '../reusable-components/program';
-import infoGroupes from "../Infos/Programmation.json"
+import infoGroupes from "../Infos/Programmation.json";
+import InfosPratiques from '../reusable-components/infosPratiques';
+
 function Home(props) {
 
     return (
@@ -19,11 +21,15 @@ function Home(props) {
                 <div className="bouton1">Billetterie ouverte ! </div>
             </div>
             <div>
-                <div className="programme-title">Programme</div>
+                <div className="title">Programme</div>
 
                 <Programme titre={"Vendredi soir"} infoGroupes={{ "groupe1": { ...infoGroupes["groupe1"] }, "groupe2": { ...infoGroupes["groupe2"] }, "groupe3": { ...infoGroupes["groupe3"] } }}></Programme>
                 <Programme titre={"Samedi soir"} infoGroupes={{ "groupe1": { ...infoGroupes["groupe4"] }, "groupe2": { ...infoGroupes["groupe5"] }, "groupe3": { ...infoGroupes["groupe6"] } }}></Programme>
 
+            </div>
+            <div>
+                <div className="title">Infos pratiques</div>
+                <InfosPratiques></InfosPratiques>
             </div>
             <div>Hello</div>
 

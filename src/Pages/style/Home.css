@@ -46,10 +46,19 @@
     border-radius: 5px;
 }
 
-.programme-title {
+.title {
     font-size: 48px;
     text-align: center;
     padding: 15px;
     position: relative;
     margin-top: -5px;
+}
+
+.infos-pratiques-title {
+    font-family: 'DM Serif Display';
+    font-size: 42px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: #0A0E31;
 }
