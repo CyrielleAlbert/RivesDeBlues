@@ -5,14 +5,13 @@ import Programme from '../reusable-components/program';
 import infoGroupes from "../Infos/Programmation.json";
 import InfosPratiques from '../reusable-components/infosPratiques';
 import Billetterie from '../reusable-components/billetterie';
+import Footer1 from '../reusable-components/footer';
 
 function Home(props) {
 
     return (
         <div>
-            <Header style={{
-                zIndex: 100
-            }}></Header>
+            <Header style={{zIndex: 100}}></Header>
             <div className="background">
                 <img src="/Images/background.png" width={"100%"} style={{ overflow: "hidden" }} />
             </div>
@@ -37,7 +36,7 @@ function Home(props) {
                 <div className="title">Infos pratiques</div>
                 <InfosPratiques></InfosPratiques>
             </div>
-
+            <Footer1></Footer1>
         </div>
     )
 }
