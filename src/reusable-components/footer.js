@@ -9,7 +9,7 @@ function Footer1() {
     return (
         <div style={{ display: 'flex', flexDirection: "row", backgroundColor: "#0A0E31", width: "100%", height: 250, justifyContent: "center", fontFamily: "Roboto", color: "white", fontSize:15 }}>
             <div style={{ width: "33%", justifyContent: "center", display: "flex", flexDirection: "column", alignItems: "center" }}>
-                <img src="/Images/LOGO.png" width="50%" />
+                <img src="/Images/Logo.svg" width="50%" />
             </div>
             <div style={{ width: "33%", justifyContent: "center", display: "flex", alignItems: "center" }}>
                 <div style={{ justifyContent: "center", display: "flex", flexDirection: "column" }}>
