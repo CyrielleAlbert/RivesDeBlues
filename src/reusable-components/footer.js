@@ -2,8 +2,6 @@
 import { ReactComponent as MailSVG} from './../Icons/mail.svg'
 import { ReactComponent as PhoneSVG} from './../Icons/call-phone.svg'
 
-//TODO Changer le numéro de téléphone
-//TODO "Nous contacter"?
 //TODO Redirection vers infos
 function Footer1() {
     return (
@@ -32,12 +30,6 @@ function Footer1() {
                             <MailSVG fill="#FFF" width={20} height={20} style={{marginRight:10, position:"relative",top:4}}/>
                             {"Tourdescene@gmail.com"}
                             </div>
-                        <div style={{marginTop:10}}>
-                            <PhoneSVG fill="#FFF" width={20} height={20} style={{marginRight:10, position:"relative",top:4}}/>
-
-                            {"02.41.XX.XX.XX"}
-                        </div>
-
                     </div>
                 </div>
             </div>
