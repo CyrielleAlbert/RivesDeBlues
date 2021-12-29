@@ -9,8 +9,6 @@ import Footer1 from '../reusable-components/footer';
 import { ReactComponent as BilletSVG } from './../Icons/coupon.svg'
 import Partenaires from '../reusable-components/partenaires';
 import { useRef } from 'react';
-//TODO ajouter le lien pour bouton1
-//TODO ajouter les séparateurs lignes des titres
 //TODO revoir les font-size (harmoniser)
 //TODO revoir les marges (harmoniser)
 
