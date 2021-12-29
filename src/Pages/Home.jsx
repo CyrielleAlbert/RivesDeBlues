@@ -14,6 +14,8 @@ import { useRef } from 'react';
 //TODO revoir les font-size (harmoniser)
 //TODO revoir les marges (harmoniser)
 
+const LINK_TM = "https://www.ticketmaster.fr/fr/manifestation/rives-de-blues-and-co-billet/idmanif/515408#"
+
 function Home(props) {
     const progScroll = useRef(null);
     const ticketScroll = useRef(null);
@@ -38,7 +40,7 @@ function Home(props) {
             <div className="content" stle={{ width: window.innerWidth }}>
                 <div className="accroche">{"Tenez-vous prêts pour une déflagration de Rock & Blues à Rives-du-Loir-en-Anjou."}</div>
                 <div className="countdown"><Countdown timestamp={1653073200}></Countdown></div>
-                <div className="bouton1">Billetterie ouverte ! </div>
+                <a className="bouton1" href={LINK_TM}>Billetterie ouverte ! </a>
             </div>
             <div>
                 <div className="title" ref={progScroll}>

@@ -44,7 +44,8 @@
     font-weight: bolder;
     margin-top: 75px;
     border-radius: 5px;
-    cursor: pointer
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .title {
