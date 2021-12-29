@@ -1,5 +1,5 @@
 ﻿import './style/program.css'
-//TODO Ajouter plus d'info sur les groupes et en faire un scrollable div
+
 function Programme(props) {
      return (
           <div style={{ fontFamily: 'Roboto', backgroundColor: "#0A0E31", color: "white" }}>
@@ -10,13 +10,17 @@ function Programme(props) {
                     </div>
                     <div className="moitie2">
                          <div className="nomGr">{"" + props.infoGroupes["groupe1"]["horaire"] + " - " + props.infoGroupes["groupe1"]["nom"]}</div>
-                         <div className="desc">{props.infoGroupes["groupe1"]["description"]}</div>
+                         {props.infoGroupes["groupe1"]["description"].map(text =>{
+                              return(<div className="desc">{text}</div>)
+                         })}
                     </div>
                </div>
                <div className="groupe">
                     <div className="moitie2">
                          <div className="nomGr">{"" + props.infoGroupes["groupe2"]["horaire"] + " - " + props.infoGroupes["groupe2"]["nom"]}</div>
-                         <div className="desc">{props.infoGroupes["groupe2"]["description"]}</div>
+                         {props.infoGroupes["groupe2"]["description"].map(text =>{
+                              return(<div className="desc">{text}</div>)
+                         })}
                     </div>
                     <div className="moitie1">
                          <img src={props.infoGroupes["groupe2"]["image"]} />
@@ -28,7 +32,9 @@ function Programme(props) {
                     </div>
                     <div className="moitie2">
                          <div className="nomGr">{"" + props.infoGroupes["groupe3"]["horaire"] + " - " + props.infoGroupes["groupe3"]["nom"]}</div>
-                         <div className="desc">{props.infoGroupes["groupe3"]["description"]}</div>
+                         {props.infoGroupes["groupe3"]["description"].map(text =>{
+                              return(<div className="desc">{text}</div>)
+                         })}
                     </div>
                </div>
           </div>
