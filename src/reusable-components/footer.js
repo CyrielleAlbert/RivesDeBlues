@@ -1,38 +1,42 @@
 ﻿import { SocialIcon } from "react-social-icons"
-import { ReactComponent as MailSVG} from './../Icons/mail.svg'
-import { ReactComponent as PhoneSVG} from './../Icons/call-phone.svg'
+import { ReactComponent as MailSVG } from './../Icons/mail.svg'
+import { ReactComponent as PhoneSVG } from './../Icons/call-phone.svg'
 
 //TODO Redirection vers infos
 function Footer1() {
     return (
-        <div style={{ display: 'flex', flexDirection: "row", backgroundColor: "#0A0E31", width: "100%", height: 250, justifyContent: "center", fontFamily: "Roboto", color: "white", fontSize:15 }}>
-            <div style={{ width: "33%", justifyContent: "center", display: "flex", flexDirection: "column", alignItems: "center" }}>
-                <img src="/Images/Logo.svg" width="50%" />
-            </div>
-            <div style={{ width: "33%", justifyContent: "center", display: "flex", alignItems: "center" }}>
-                <div style={{ justifyContent: "center", display: "flex", flexDirection: "column" }}>
-                    <span style={{ margin: 10 }}>Le Festival</span>
-                    <span style={{ margin: 10 }}>FAQ</span>
-                    <span style={{ margin: 10 }}>Espace presse</span>
-                    <span style={{ margin: 10 }}>Mentions légales</span>
+        <div style={{backgroundColor: "#0A0E31", width: "100%", height: 250, fontSize:15,color:"white", fontFamily:"Roboto"}}>
+            <div style={{ display: 'flex', flexDirection: "row",  justifyContent: "center", fontFamily: "Roboto", color: "white", fontSize: 15, paddingTop:20 }}>
+                <div style={{ width: "33%", justifyContent: "center", display: "flex", flexDirection: "column", alignItems: "center" }}>
+                    <img src="/Images/Logo.svg" width="50%" />
                 </div>
-            </div>
-            <div style={{ width: "33%", justifyContent: "center", display: "flex", alignItems: "center", flexDirection: "column" }}>
-                <div style={{ justifyContent: "center", display: "flex", flexDirection:"column"}}>
-                    {"Nous suivre : "}
-                    <div style={{ justifyContent: "start", display: "flex", flexDirection: "row" }}>
-                        <SocialIcon url="https://www.facebook.com/rives.de.blues.and.co/" bgColor="#FFFFFF" style={{ width: 42, height: 42, margin:"10px 10px 10px 0px" }} />
-                        <SocialIcon url="https://www.instagram.com/rives.de.blues.and.co/" bgColor="#FFFFFF" style={{ width: 42, height: 42, margin:"10px 10px 10px 0px" }} />
+                <div style={{ width: "33%", justifyContent: "center", display: "flex", alignItems: "center" }}>
+                    <div style={{ justifyContent: "center", display: "flex", flexDirection: "column" }}>
+                        <span style={{ margin: 10 }}>Le Festival</span>
+                        <span style={{ margin: 10 }}>FAQ</span>
+                        <span style={{ margin: 10 }}>Espace presse</span>
+                        <span style={{ margin: 10 }}>Mentions légales</span>
                     </div>
-                    {"Nous contacter : "}
-                    <div style={{ justifyContent: "start", display: "flex", flexDirection: "column" }}>
-                        <div style={{marginTop:15}}>
-                            <MailSVG fill="#FFF" width={20} height={20} style={{marginRight:10, position:"relative",top:4}}/>
-                            {"Tourdescene@gmail.com"}
+                </div>
+                <div style={{ width: "33%", justifyContent: "center", display: "flex", alignItems: "center", flexDirection: "column" }}>
+                    <div style={{ justifyContent: "center", display: "flex", flexDirection: "column" }}>
+                        {"Nous suivre : "}
+                        <div style={{ justifyContent: "start", display: "flex", flexDirection: "row" }}>
+                            <SocialIcon url="https://www.facebook.com/rives.de.blues.and.co/" bgColor="#FFFFFF" style={{ width: 42, height: 42, margin: "10px 10px 10px 0px" }} />
+                            <SocialIcon url="https://www.instagram.com/rives.de.blues.and.co/" bgColor="#FFFFFF" style={{ width: 42, height: 42, margin: "10px 10px 10px 0px" }} />
+                        </div>
+                        {"Nous contacter : "}
+                        <div style={{ justifyContent: "start", display: "flex", flexDirection: "column" }}>
+                            <div style={{ marginTop: 15 }}>
+                                <MailSVG fill="#FFF" width={20} height={20} style={{ marginRight: 10, position: "relative", top: 4 }} />
+                                {"Tourdescene@gmail.com"}
                             </div>
+                        </div>
                     </div>
                 </div>
+
             </div>
+            <div style={{textAlign:"center",marginTop:25,fontSize:13}}>{"Copyright"} &copy; {"Rives de Blues & Co. All Rights Reserved."}</div>
         </div>
     )
 }
