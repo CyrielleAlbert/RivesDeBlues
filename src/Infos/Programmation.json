@@ -7,10 +7,10 @@
         "website": "https://www.labedoune.fr"
     },
     "groupe2": {
-        "nom": "Brooklyn",
+        "nom": "Tony Martin",
         "horaire": "21h30",
-        "image": "/Images/Groupes/Brooklyn.png",
-        "description": ["« Tony martin , le leader de Brooklyn..guitariste débordant de talent (accompagne M au Zénith de Nantes) , une gentillesse et disponibilité exceptionnelles.. Floriane qui prête sa merveilleuse voix au quartet, un charme fou dans son sourire surtout lorsqu’elle susurre les paroles pour de délicieuses ballades. Un Martin qui fut élevé à la baguette pour nous donner le tempo, une crème de batteur. Un Gael à la basse qui est aussi discret que talentueux aux multiples talents. » Rives de Blues & Co.", "Vous l'aurez compris Rives De Blues ne pouvait se passer de ce quartet et vous priver d'un monde de douceur avec des détours par du Chicago Blues voire du Hendrix …"],
+        "image": "/Images/Groupes/TonyMartin.png",
+        "description": ["« Tony martin, guitariste débordant de talent,(accompagne M au Zénith de Nantes) , une gentillesse et disponibilité exceptionnelles. Une soirée 100 % Blues from Austin Texas ! Les influences de la soirée se partageront entre Jimmy Vaughan, Albert Collins, Doyle Bramhall et Stevie Ray Vaughan. Le quartet comblera la scène et la salle avec ces talentueux musiciens pour du blues « Revival» hors norme, un grand moment qui promet de retrouver le son des années 80 avec un son digne d'un Otis Rush. Nous sommes dans cet antre du blues blanc américain. Vous allez frissonner de plaisir !» Rives de Blues & Co.", "Photo de Rebecca de Nantes."],
         "website": "https://www.facebook.com/brooklynduomusic"
     },
     "groupe3": {
