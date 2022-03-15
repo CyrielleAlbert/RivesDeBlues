@@ -1,6 +1,6 @@
 ﻿import Pass from "./pass"
-const LINK_1_DAY = "https://www.francebillet.com/billet-sortie/acheter/blues-country-festival-rives-de-blues-and-co-mansoriv-lt.htm"
-const LINK_2_DAYS = "https://www.francebillet.com/billet-sortie/acheter/blues-country-festival-rives-de-blues-and-co-p-2j-mansori2-lt.htm"
+const LINK_1_DAY = "https://www.billetweb.fr/rives-de-blues-co"
+const LINK_2_DAYS = "https://www.billetweb.fr/rives-de-blues-co"
 const LINK_PDV_FB = "https://www.francebillet.com/listePointVenteEdito.do;jsessionid=41-05502B0EB887D34A9105F3B41114FA4B"
 const LINK_PDV_TM = "https://www.ticketmaster.fr/static/html/fr/popups/pd_retrait.htm"
 function Billetterie() {
