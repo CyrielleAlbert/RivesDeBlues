@@ -1,7 +1,7 @@
 ﻿.pass {
-    height: 250px;
-    width: 250px;
-    margin: 10px;
+    height: 15.5rem;
+    width: 15.5rem;
+    margin: 0.625rem;
 }
 
 .intitule {
@@ -30,7 +30,7 @@
 }
 
 .prix {
-    font-size: 35px;
+    font-size: 2.25rem;
     color: black;
     display: flex;
     flex-direction: row;
@@ -39,7 +39,7 @@
 }
 
 .reduc {
-    font-size: 20px;
+    font-size: 1.25rem;
     text-decoration: line-through;
     margin-left: 15px;
 }
@@ -48,7 +48,7 @@
     background-color: #141948;
     color: white;
     width: fit-content;
-    padding: 5px 20px 10px 20px;
+    padding: 5px 1.25rem 0.625rem 1.25rem;
     border-radius: 6px;
     margin-top: 50px;
     margin-bottom: 15px;

@@ -3,9 +3,10 @@
     font-size: 42px;
     width: 100%;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
 }
+
 
 .groupe {
     display: flex;
@@ -18,6 +19,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .moitie2 {
@@ -28,11 +30,16 @@
 .desc {
     font-size: 18px;
     font-family: 'Roboto';
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 .nomGr {
-    padding: 10px;
-    font-size: 20px;
+    padding: 0.625rem;
+    font-size: 1.25rem;
     font-weight: bolder;
+}
+.moitie1 img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
 }

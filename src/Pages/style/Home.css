@@ -1,16 +1,16 @@
 ﻿.background {
     position: relative;
-    margin-top: -75px;
-    left: 0px;
+    margin-top: -4.5rem;
+    left: 0rem;
     z-index: -100;
-    bottom: 0;
-    padding-bottom: 0;
+    bottom: 0rem;
+    padding-bottom: 0rem;
 }
 
 .content {
     position: absolute;
     z-index: 100;
-    top: 250px;
+    top: 15.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,7 +22,7 @@
 
 .accroche {
     font-family: 'Roboto';
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: bold;
     color: white;
     display: flex;
@@ -31,30 +31,30 @@
 
 .countdown {
     color: white;
-    margin-top: 15px;
+    margin-top: 1rem;
 }
 
 .bouton1 {
     background-color: white;
     color: #0A0E31;
-    padding: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 25px;
+    padding: 0.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.5rem;
     font-weight: bolder;
-    margin-top: 75px;
-    border-radius: 5px;
+    margin-top: 4.5rem;
+    border-radius: 0.375rem;
     cursor: pointer;
     text-decoration: none;
 }
 
 .title {
-    font-size: 48px;
+    font-size: 3rem;
     text-align: center;
-    padding: 15px;
+    padding: 1rem;
     position: relative;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -62,10 +62,10 @@
 
 .infos-pratiques-title {
     font-family: 'DM Serif Display';
-    font-size: 42px;
+    font-size: 2.5rem;
     width: 100%;
     text-align: center;
-    padding: 10px;
+    padding: 0.75rem;
     color: #0A0E31;
 }
 
