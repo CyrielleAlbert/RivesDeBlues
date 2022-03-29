@@ -33,7 +33,7 @@ function Home(props) {
         <div>
             <Header style={{ zIndex: 100 }} buttonCallback={executeScroll}></Header>
             <div className="background">
-                <img src="/Images/background.png" width={"100%"} style={{ overflow: "hidden" }} />
+                <img src="/Images/background.png" />
             </div>
             <div className="content" stle={{ width: window.innerWidth }}>
                 <div className="accroche">{"Tenez-vous prêts pour une déflagration de Rock & Blues à Rives-du-Loir-en-Anjou."}</div>
