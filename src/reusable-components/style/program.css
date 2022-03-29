@@ -1,45 +1,107 @@
 ﻿.titre {
-    font-family: 'DM Serif Display';
-    font-size: 42px;
-    width: 100%;
-    text-align: center;
-    padding-top: 0.625rem;
-    padding-bottom: 0.625rem;
+  font-family: "DM Serif Display";
+  font-size: 2.5rem;
+  width: 100%;
+  text-align: center;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
 }
 
-
 .groupe {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .moitie1 {
-    width: 50%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 50%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .moitie2 {
-    width: 50%;
-    overflow: hidden;
+  width: 50%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.moitie4 {
+  width: 50%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .desc {
-    font-size: 18px;
-    font-family: 'Roboto';
-    padding: 0.625rem;
+  font-size: 1.125rem;
+  font-family: "Roboto";
+  padding: 0.625rem;
 }
 
 .nomGr {
-    padding: 0.625rem;
-    font-size: 1.25rem;
-    font-weight: bolder;
+  padding: 0.625rem;
+  font-size: 1.25rem;
+  font-weight: bolder;
 }
-.moitie1 img{
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
+.moitie1 img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.moitie2 img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.moitie4 img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.moitie3 {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+@media (max-width: 900px) {
+  .titre {
+    font-size: 1.8rem;
+  }
+
+  .groupe {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .moitie1 {
+    width: 100%;
+  }
+
+  .moitie1 img{
+      width:100%;
+      height:auto
+  }
+  .moitie2 {
+    width: 100%;
+  }
+  .moitie3 {
+    display:flex;
+  }
+  .moitie4 {
+    display:none;
+  }
+
+  .desc {
+    font-size: 1rem;
+  }
 }

@@ -17,7 +17,7 @@ function Programme(props) {
                     </div>
                </div>
                <div className="groupe">
-                    <div className="moitie2">
+                    <div className="moitie4">
                          <div className="nomGr">{"" + props.infoGroupes["groupe2"]["horaire"] + " - " + props.infoGroupes["groupe2"]["nom"]}</div>
                          {props.infoGroupes["groupe2"]["description"].map(text =>{
                               return(<div className="desc">{text}</div>)
@@ -27,6 +27,14 @@ function Programme(props) {
                     </div>
                     <div className="moitie1">
                          <img src={props.infoGroupes["groupe2"]["image"]} />
+                    </div>
+                    <div className="moitie3">
+                         <div className="nomGr">{"" + props.infoGroupes["groupe2"]["horaire"] + " - " + props.infoGroupes["groupe2"]["nom"]}</div>
+                         {props.infoGroupes["groupe2"]["description"].map(text =>{
+                              return(<div className="desc">{text}</div>)
+                         })}
+                         {props.infoGroupes["groupe2"]["website"] !="" &&
+                         <div className="desc">Retrouvez-les sur : <a href={props.infoGroupes["groupe2"]["website"]} style={{color:"white",textDecoration:"none"}}>{props.infoGroupes["groupe2"]["website"]}</a></div>}
                     </div>
                </div>
                <div className="groupe">

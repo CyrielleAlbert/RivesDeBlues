@@ -79,20 +79,7 @@
 
 @media (max-width: 900px) {
   .countdown {
-    visibility: hidden;
-  }
-  .bouton1 {
-    background-color: white;
-    color: #0a0e31;
-    padding: 0.75rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    font-size: 1.5rem;
-    font-weight: bolder;
-    margin-top: -4.5rem;
-    border-radius: 0.375rem;
-    cursor: pointer;
-    text-decoration: none;
+    display: none;
   }
   .background {
     position: relative;

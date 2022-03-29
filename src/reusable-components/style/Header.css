@@ -56,7 +56,7 @@
 @media (max-width: 900px) {
   .date {
     width: 0%;
-    visibility: hidden;
+    display: none;
     padding: 0;
   }
 
@@ -73,11 +73,11 @@
   }
   .programme {
     width: 0%;
-    visibility: hidden;
+    display: none;
   }
 
   .tickets {
     width: 0%;
-    visibility: hidden;
+    display: none;
   }
 }
