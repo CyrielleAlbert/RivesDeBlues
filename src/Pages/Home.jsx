@@ -53,8 +53,8 @@ function Home(props) {
                 <Programme titre={"Samedi soir"} infoGroupes={{ "groupe1": { ...infoGroupes["groupe4"] }, "groupe2": { ...infoGroupes["groupe5"] }, "groupe3": { ...infoGroupes["groupe6"] } }}></Programme>
 
             </div>
-            <div className="billetterie" ref={ticketScroll}>
-                <div className="title" style={{ color: "white" }}>
+            <div>
+                <div className="title" style={{ color: "white", backgroundColor:"#0a0e31" }} ref={ticketScroll}>
                     <hr style={{ width:"35%", height: 2, borderWidth: 0, backgroundColor: "white", position: 'relative', top: 10, color: "#0A0E31" }} />
                     <BilletSVG fill="#FFF" width={38} height={38} style={{ marginRight: 20, position: 'relative', top: 15 }} />
                     Billetterie
