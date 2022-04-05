@@ -26,16 +26,14 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 .moitie4 {
   width: 50%;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
 }
 
 .desc {
@@ -87,18 +85,22 @@
     width: 100%;
   }
 
-  .moitie1 img{
-      width:100%;
-      height:auto
+  .moitie1 img {
+    width: 100%;
+    height: auto;
   }
   .moitie2 {
     width: 100%;
+    justify-content: center;
+    align-items: center;
   }
   .moitie3 {
-    display:flex;
+    display: flex;
   }
   .moitie4 {
-    display:none;
+    display: none;
+    justify-content: center;
+    align-items: center;
   }
 
   .desc {
