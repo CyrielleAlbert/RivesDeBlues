@@ -1,105 +1,106 @@
 ﻿.background {
-  position: relative;
-  margin-top: -4.5rem;
-  left: 0rem;
-  z-index: -100;
-  bottom: 0rem;
-  padding-bottom: 0rem;
-}
-
-.content {
-  position: absolute;
-  z-index: 100;
-  top: 15.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 100%;
-  font-family: "Roboto";
-}
-
-.accroche {
-  font-family: "Roboto";
-  font-size: 2rem;
-  font-weight: bold;
-  color: white;
-  display: flex;
-  width: 60%;
-}
-
-.countdown {
-  color: white;
-  margin-top: 1rem;
-}
-
-.bouton1 {
-  background-color: white;
-  color: #0a0e31;
-  padding: 0.75rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  font-size: 1.5rem;
-  font-weight: bolder;
-  margin-top: 4.5rem;
-  border-radius: 0.375rem;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.title {
-  font-size: 3rem;
-  text-align: center;
-  padding: 1rem;
-  position: relative;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.infos-pratiques-title {
-  font-family: "DM Serif Display";
-  font-size: 2.5rem;
-  width: 100%;
-  text-align: center;
-  padding: 0.75rem;
-  color: #0a0e31;
-}
-.background img{
-    width:100%;
-    overflow: hidden;
-}
-
-.billetterie {
-  background-color: #0a0e31;
-}
-
-@media (max-width: 900px) {
-  .countdown {
-    display: none;
-  }
-  .background {
     position: relative;
     margin-top: -4.5rem;
     left: 0rem;
     z-index: -100;
     bottom: 0rem;
     padding-bottom: 0rem;
-    height: 600;
-    width:auto;
-    overflow: hidden;
+}
+
+.content {
+    position: absolute;
+    z-index: 100;
+    top: 15.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  .background img{
-    width:auto;
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
-  }
+    text-align: center;
+    width: 100%;
+    font-family: "Roboto";
+}
+
+.accroche {
+    font-family: "Roboto";
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    width: 60%;
+}
+
+.countdown {
+    color: white;
+    margin-top: 1rem;
+}
+
+.bouton1 {
+    background-color: white;
+    color: #000000;
+    padding: 0.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-top: 4.5rem;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.infos-pratiques-title {
+    font-family: "DM Serif Display";
+    font-size: 2.5rem;
+    width: 100%;
+    text-align: center;
+    padding: 0.75rem;
+    color: #000000;
+}
+
+.background img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.billetterie {
+    background-color: #E35944;
+}
+
+@media (max-width: 900px) {
+    .countdown {
+        display: none;
+    }
+    .background {
+        position: relative;
+        margin-top: -4.5rem;
+        left: 0rem;
+        z-index: -100;
+        bottom: 0rem;
+        padding-bottom: 0rem;
+        height: 600;
+        width: auto;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .background img {
+        width: auto;
+        flex-shrink: 0;
+        min-width: 100%;
+        min-height: 100%
+    }
 }

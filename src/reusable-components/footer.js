@@ -1,9 +1,10 @@
 ﻿import { SocialIcon } from "react-social-icons"
 import { ReactComponent as MailSVG } from './../Icons/mail.svg'
-import { ReactComponent as PhoneSVG } from './../Icons/call-phone.svg'
 import "./style/footer.css"
+import { useHistory } from "react-router-dom"
 //TODO Redirection vers infos
 function Footer1() {
+    const history=useHistory();
     return (
         <div class="footer">
             <div class="container">
@@ -12,10 +13,10 @@ function Footer1() {
                 </div>
                 <div class="links">
                     <div style={{ justifyContent: "center", display: "flex", flexDirection: "column" }}>
-                        <span style={{ margin: "0.75rem" }}>Le Festival</span>
-                        <span style={{ margin: "0.75rem" }}>FAQ</span>
-                        <span style={{ margin: "0.75rem" }}>Espace presse</span>
-                        <span style={{ margin: "0.75rem" }}>Mentions légales</span>
+                        {/* <span style={{ margin: "0.75rem" }}>Le Festival</span>
+                        <span style={{ margin: "0.75rem" }}>FAQ</span> */}
+                        <span style={{ margin: "0.75rem", cursor:"pointer" }} onClick={()=>history.push("/presse")}>Espace presse</span>
+                        {/* <span style={{ margin: "0.75rem" }}>Mentions légales</span> */}
                     </div>
                 </div>
                 <div class="socialNet">

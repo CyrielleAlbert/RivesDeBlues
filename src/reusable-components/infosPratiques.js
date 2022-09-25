@@ -8,7 +8,7 @@ function InfosPratiques() {
         <div>
             <div className="titre-info-p">Mesures sanitaire</div>
             <div className="content-2">{"L’accueil du public s’effectue dans le strict respect des protocoles sanitaires en vigueur au moment de l’événement, en accord avec les autorités préfectorales. Nos équipes et agents d’accueil sont à votre disposition pour vous orienter dans vos déplacements et vous accompagner."}</div>
-            <div className="content-3">
+            {/* <div className="content-3">
                 <div style={{ display: 'flex' }}>
                     <InfoSVG fill="#A90000" width={100} height={100} style={{ marginRight: 20, position: 'relative', top: -15 }} />
                     <div>{"Nous vous remercions de respecter la distanciation physique en toute circonstance (y compris dans les files d’attente), les marquages au sol et à suivre les consignes de circulation données dans chaque lieu. Le port d’un masque couvrant le nez, la bouche et le menton est obligatoire pour toute personne de plus de 11 ans (à défaut l’accueil sera refusé). Nos espaces sont aérés et nettoyés régulièrement pour vous garantir un accueil optimal."}</div>
@@ -17,7 +17,7 @@ function InfosPratiques() {
                     <WarningSVG fill="#A90000" width={36} height={36} style={{ marginRight: 20,position:"relative",top:15 }} />
                     <div style={{ marginTop: 20 }}>{"Le pass sanitaire est obligatoire et devra être présenté à l’entrée avec une pièce d’identité valide (à défaut l’accueil sera refusé) ."}</div>
                 </div>
-            </div>
+            </div> */}
             <div className="titre-info-p">Restauration sur place</div>
             <div style={{fontFamily:"Roboto",fontSize:20,marginLeft:20}}>{"Un food Truck  ainsi qu'une buvette seront présents sur place."}</div>
             <div className="titre-info-p">Accès</div>

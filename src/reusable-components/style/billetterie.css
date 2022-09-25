@@ -1,44 +1,47 @@
 .billetterie {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
 }
 
 .pass-cards {
-  padding: 1.25rem;
-  display: flex;
-  flex-direction: row;
-}
-.info {
-  color: black;
-  background-color: white;
-  font-family: "Roboto";
-  padding: 0.625rem;
-  width: 48rem;
-  border-radius: 0.75rem;
-}
-.info2 {
-  font-size: 1.5rem;
-  margin-top: 0.625rem;
-  margin-bottom: 0.625rem;
-  display: flex;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: row;
 }
 
-@media (max-width: 900px) {
-  .pass-cards {
-      display:flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-  }
-  .info {
+.info {
     color: black;
     background-color: white;
     font-family: "Roboto";
     padding: 0.625rem;
-    width: 80%;
+    width: 48rem;
     border-radius: 0.75rem;
-  }
+}
+
+.info2 {
+    font-size: 1.5rem;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+    display: flex;
+}
+
+@media (max-width: 900px) {
+    .pass-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .info {
+        color: black;
+        background-color: white;
+        font-family: "Roboto";
+        padding: 0.625rem;
+        width: 80%;
+        border-radius: 0.75rem;
+    }
 }
