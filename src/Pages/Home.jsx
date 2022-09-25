@@ -12,10 +12,7 @@ import { useRef } from "react";
 //TODO revoir les font-size (harmoniser)
 //TODO revoir les marges (harmoniser)
 
-const LINK_TM =
-  "https://www.ticketmaster.fr/fr/manifestation/rives-de-blues-and-co-billet/idmanif/515408#";
-
-function Home(props) {
+function Home() {
   const progScroll = useRef(null);
   const ticketScroll = useRef(null);
   const today = Date.now()
@@ -37,15 +34,15 @@ function Home(props) {
       <div className="content" stle={{ width: window.innerWidth }}>
         <div className="accroche">
           {
-            "Tenez-vous prêts pour une déflagration de Rock & Blues à Rives-du-Loir-en-Anjou."
+            "Le festival Rives de Blues & Co revient pour une nouvelle édition. Rendez-vous le 01 Octobre pour l'ouverture de la billetterie !"
           }
         </div>
         <div className="countdown">
-          <Countdown timestamp={1653073200}/>
+          <Countdown timestamp={1664611200}/>
         </div>
-        <a className="bouton1" href={LINK_TM}>
+        {/* <a className="bouton1" href={LINK_TM}>
           Billetterie ouverte !{" "}
-        </a>
+        </a> */}
       </div>
       <div>
         <div className="title" ref={progScroll}>

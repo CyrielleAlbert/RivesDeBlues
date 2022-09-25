@@ -2,7 +2,7 @@
 function Header(props){
     return(
         <div className="main" >
-            <div className="date">20 et 21 mai 2022</div>
+            <div className="date">19 et 20 mai 2023</div>
             <div className="logo"> 
                 <img src='/Images/Logo.svg' width="100%"/>
             </div>
