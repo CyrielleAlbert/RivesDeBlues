@@ -22,7 +22,7 @@ export default function Presse(){
                 </ul>
             {"Pour le télécharger, cliquez "}<a href={"/dossier-presse-RDB.pdf"} download="Dossier-presse-RDB.pdf">ici</a>{"."}
           </div>
-          <div>{"Pour télécharger l'affiche du festival, cliquez "}<a href={"/affiche-festival-RDB.pdf"} download="affiche-festival-RDB.pdf">ici</a>{"."}</div>
+          <div>{"Pour télécharger l'affiche du festival, cliquez "}<a href={"/affiche-festival-RDB.jpg"} download="affiche-festival-RDB.jpg">ici</a>{"."}</div>
       </div>
       <Footer1 />
     </div>

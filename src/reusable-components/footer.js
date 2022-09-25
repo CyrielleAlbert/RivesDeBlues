@@ -9,7 +9,7 @@ function Footer1() {
         <div class="footer">
             <div class="container">
                 <div class="logof">
-                    <img src="/Images/Logo.svg" width="50%" />
+                    <img src="/Images/logo-rives-de-blues.png" width="50%" />
                 </div>
                 <div class="links">
                     <div style={{ justifyContent: "center", display: "flex", flexDirection: "column" }}>
@@ -37,7 +37,7 @@ function Footer1() {
                 </div>
 
             </div>
-            <div style={{textAlign:"center",marginTop:25,fontSize:13}}>{"Copyright"} &copy; {"Rives de Blues & Co. All Rights Reserved."}</div>
+            <div style={{textAlign:"center",paddingTop:25,fontSize:13,backgroundColor: "#E35944"}}>{"Copyright"} &copy; {"Rives de Blues & Co. All Rights Reserved."}</div>
         </div>
     )
 }

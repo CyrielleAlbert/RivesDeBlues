@@ -1,14 +1,14 @@
 ﻿{
     "groupe1": {
         "nom": "Armel Dupas Trio",
-        "horaire": "20h30",
+        "horaire": "20h00",
         "image": "/Images/Groupes/Groupes_2023/Armel_dupas_trio.jpg",
-        "description": ["Des festivals : Jazz in Marciac – Montreux Jazz Festival – Jazz à Vienne … des albums , des tournées internationales : Europe , Asie, Amérique du Nord... Sideman, compositeur de musiques de films. Armel Dupas est tout cela ! Rives de Blues est ravi de programmer un trio heureux et fabuleux..des musiciens de très grand talent sur la scène de la salle Hervé Bazin pour une soirée unique.", "Armel Dupas - Piano, Christophe Piot - Batterie. Jules Billé– Contrebasse "],
+        "description": ["Des festivals : Jazz in Marciac – Montreux Jazz Festival – Jazz à Vienne … des albums , des tournées internationales : Europe , Asie, Amérique du Nord... Sideman, compositeur de musiques de films. Armel Dupas est tout cela ! Rives de Blues est ravi de programmer un trio heureux et fabuleux..des musiciens de très grand talent sur la scène de la salle Hervé Bazin pour une soirée unique.", "Armel Dupas - Piano, Christophe Piot - Batterie. Jules Billé– Contrebasse ", "© photo de Lisa Orhan"],
         "website": "https://www.armeldupas.com"
     },
     "groupe2": {
         "nom": "Alex Grenier Quartet",
-        "horaire": "21h30",
+        "horaire": "22h00",
         "image": "/Images/Groupes/Groupes_2023/alex_grenier.jpg",
         "description": ["JAZZ NEWS ( J/A 2022) le surnomme «  le pistolero de la scène jazz hexagonale». Ses influences vont de Mike Stern à Stevie Ray Vaughan, il aime se produire en souriant afin de vous montrer le chemin du plaisir musical. Alex Grenier est un artiste solaire sur scène... De festivals(Nice, Sète…) en tournées internationales: USA, Japon, Canada, Europe, ce quartet vous entrainera dans un groove enivrant en y intégrant de magnifiques ballades...", "Alex grenier – Guitares, Mathieu Debordes – Piano/Fender Rhodes, Hervé Moquet– Basse, Franck Durand – Batterie "],
         "website": "http:/www.alexgrenier.fr/"

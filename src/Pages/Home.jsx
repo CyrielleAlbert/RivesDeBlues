@@ -29,7 +29,7 @@ function Home() {
     <div>
       <Header style={{ zIndex: 100 }} buttonCallback={executeScroll}/>
       <div className="background">
-        <img src="/Images/background.png" />
+        <img src="/Images/affiche-festival-RDB.png" />
       </div>
       <div className="content" stle={{ width: window.innerWidth }}>
         <div className="accroche">

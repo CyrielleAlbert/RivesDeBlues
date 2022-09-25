@@ -21,12 +21,12 @@ function Billetterie() {
           paddingLeft:"10%",
           paddingRight:"10%",
           backgroundColor:"#E35944"
-        }}>{"La billetterie ouvrira officiellement le 01 Octobre 2022 avec les tarifs PREUMS."} 
+        }}>{"La billetterie ouvrira officiellement le 01 Octobre 2022 jusqu'au 31 décembre 2022 avec les tarifs PREUM'S."} 
         </div>}
      {Date.now() >= 1664611200000 && Date.now() <= 1672527599000 &&  
      <>
       <div style={{textAlign:"center", fontSize: 40 }}>
-              {"Tarifs  PREUMS    -5€ jusqu'au 31 décembre 2022 "}
+              {"Tarifs  PREUM'S    -30% jusqu'au 31 décembre 2022 "}
       </div>
       <div class="billetterie">
             <div class="pass-cards">
