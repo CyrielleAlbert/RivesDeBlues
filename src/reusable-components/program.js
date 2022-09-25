@@ -2,7 +2,7 @@
 
 function Programme(props) {
      return (
-          <div style={{ fontFamily: 'Roboto', backgroundColor: "#0A0E31", color: "white" }}>
+          <div style={{ fontFamily: 'Roboto', backgroundColor: "#000000", color: "white" }}>
                <div className="titre">{props.titre}</div>
                <div className="groupe">
                     <div className="moitie1">

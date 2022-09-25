@@ -57,7 +57,7 @@ function Home(props) {
               backgroundColor: "black",
               position: "relative",
               top: 10,
-              color: "#0A0E31",
+              color: "#000000",
             }}
           />
           <img
@@ -74,7 +74,7 @@ function Home(props) {
               backgroundColor: "black",
               position: "relative",
               top: 10,
-              color: "#0A0E31",
+              color: "#000000",
             }}
           />
         </div>
@@ -109,7 +109,7 @@ function Home(props) {
               backgroundColor: "white",
               position: "relative",
               top: 10,
-              color: "#0A0E31",
+              color: "#000000",
             }}
           />
           <BilletSVG
@@ -127,7 +127,7 @@ function Home(props) {
               backgroundColor: "white",
               position: "relative",
               top: 10,
-              color: "#0A0E31",
+              color: "#000000",
             }}
           />
         </div>
@@ -143,7 +143,7 @@ function Home(props) {
               backgroundColor: "black",
               position: "relative",
               top: 10,
-              color: "#0A0E31",
+              color: "#000000",
             }}
           />
           <img src="/Icons/info.svg" width={36} style={{ marginRight: 20 }} />
@@ -156,7 +156,7 @@ function Home(props) {
               backgroundColor: "black",
               position: "relative",
               top: 10,
-              color: "#0A0E31",
+              color: "#000000",
             }}
           />
         </div>
@@ -172,7 +172,7 @@ function Home(props) {
               backgroundColor: "black",
               position: "relative",
               top: 10,
-              color: "#0A0E31",
+              color: "#000000",
             }}
           />
           <img src="/Icons/rocket.svg" width={36} style={{ marginRight: 20 }} />
@@ -185,7 +185,7 @@ function Home(props) {
               backgroundColor: "black",
               position: "relative",
               top: 10,
-              color: "#0A0E31",
+              color: "#000000",
             }}
           />
         </div>
