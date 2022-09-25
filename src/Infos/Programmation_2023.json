@@ -1,0 +1,37 @@
+﻿{
+    "groupe1": {
+        "nom": "An Diaz & Yokatta Brothers",
+        "horaire": "19h00",
+        "image": "/Images/Groupes/Groupes_2023/An_diaz.jpeg",
+        "description": ["An Díaz & Yokatta Brothers est un quartet de blues composé d'une jeune chanteuse originaire de Buenos Aires et aux racines gospel, accompagnée de 3 bluesmen du Nord de la France nourris aux grooves de la Nouvelle Orleans. Ce nouvel opus, intitulé Alana, est composé de créations originales d’An Díaz, paroles et musiques. Leur show présente les créations de l’album et des reprises de standards du blues servis par la voix puissante de la chanteuse et soutenus par l’énergie et la spontanéité du groupe. C’est un blues moderne qui rend hommage aux origines. Les Rendez Vous de l'Erdre 2022 ne se sont pas trompés. Le public et le Jury du tremplin ont appréciés, célébrés ce quartet qui se trouve programmé pour de nombreux festivals en 2023. ", "AN DÍAZ - vocals, MANUSLIDE - guitar/vocals, JULIEN MAHIEUX - drums/vocals, STEPHANE BIHAN - double bass/vocals"],
+        "website": "https://linktr.ee/yokattabrothers"
+    },
+    "groupe2": {
+        "nom": "Armel Dupas Trio",
+        "horaire": "20h30",
+        "image": "/Images/Groupes/Groupes_2023/Armel_dupas_trio.jpg",
+        "description": ["Des festivals : Jazz in Marciac – Montreux Jazz Festival – Jazz à Vienne … des albums , des tournées internationales : Europe , Asie, Amérique du Nord... Sideman, compositeur de musiques de films. Armel Dupas est tout cela ! Rives de Blues est ravi de programmer un trio heureux et fabuleux..des musiciens de très grand talent sur la scène de la salle Hervé Bazin pour une soirée unique.", "Armel Dupas - Piano, Christophe Piot - Batterie. Jules Billé– Contrebasse "],
+        "website": "https://www.armeldupas.com"
+    },
+    "groupe3": {
+        "nom": "Alex Grenier Quartet",
+        "horaire": "21h30",
+        "image": "/Images/Groupes/Groupes_2023/alex_grenier.jpg",
+        "description": ["JAZZ NEWS ( J/A 2022) le surnomme «  le pistolero de la scène jazz hexagonale». Ses influences vont de Mike Stern à Stevie Ray Vaughan, il aime se produire en souriant afin de vous montrer le chemin du plaisir musical. Alex Grenier est un artiste solaire sur scène... De festivals(Nice, Sète…) en tournées internationales: USA, Japon, Canada, Europe, ce quartet vous entrainera dans un groove enivrant en y intégrant de magnifiques balades...", "Alex grenier – Guitares, Mathieu Debordes – Piano/Fender Rhodes, Hervé Moquet– Basse, Franck Durand – Batterie "],
+        "website": "http:/www.alexgrenier.fr/"
+    },
+    "groupe4": {
+        "nom": "Freddy Miller",
+        "horaire": "20h30",
+        "image": "/Images/Groupes/Groupes_2023/Freddy_Miller.JPG",
+        "description": ["Si il existe une voix blues, c 'est bien celle de Monsieur Freddy Miller, un personnage taillé dans le marbre du Blues et solide comme un « Rock » - Freddy et ses acolytes vont se faire un plaisir de vous distiller des compositions originales parsemées de reprises hautes en couleur... Avec son ancien groupe Freddy Miller a représenté la France à l 'International Blues Challenge de Memphis aux USA (Sorte de Coupe du monde des musiciens Blues). Un Cv particulièrement élevé pour une belle soirée charpentée..", "Freddy Miller – Chant, Chris Berlin – Batterie, Anthony Delannoy – Basse, Virgil Viard – Guitare, Philippe Peronnet – Saxophone, Patrice Cuvelier – Claviers ", " © photo de Alain Hiot "],
+        "website": "https://freddy-miller.eu"
+    },
+    "groupe5": {
+        "nom": "Mr Tchang Bluz Explosion",
+        "horaire": "22h00",
+        "image": "/Images/Groupes/Groupes_2023/Mr_tchang.jpg",
+        "description": ["En quartet , ce groupe est, comme son nom l'indique, une vraie boule d'énergie prête à exploser sur scène. Mr(Mister en Anglais) Tchang est une forte personnalité rythmique et scénique, il se plaît à jouer avec le public voire se mettre sur ses genoux..Les musiciens qui l 'accompagnent sont de grandes pointures de la scène française et internationale. Mr Tchang a joué avec de nombreux artistes US et Français: Big Georges Brock, Ponty Bone, James« Super Chikan», Nico Wayne Toussaint, Malted Milk...Son dernier album est une« tuerie« de Soul et de Blues avec uniquement des créations originales« TIME TO MOVE»", "Mister TCHANG – Guitare/Chant, Sylvain TEJERIZO - Saxophones/Chœurs, Antoine ESCALIER – Basse/Chœurs, Pascal DELMAS – Batterie, Benoit RIBIERE – Orgue/Chœurs", " © photo de Philippe BROUSSARD "],
+        "website": " https://www.bluztrack-productions.com/mr-tchang/"
+    }
+}

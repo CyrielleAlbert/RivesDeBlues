@@ -1,8 +1,8 @@
 ﻿import Header from "../reusable-components/header";
 import "./style/Home.css";
 import Countdown from "../reusable-components/countdown";
-import Programme from "../reusable-components/program";
-import infoGroupes from "../Infos/Programmation.json";
+import Programme from "../reusable-components/program2";
+import infoGroupes from "../Infos/Programmation_2023.json";
 import InfosPratiques from "../reusable-components/infosPratiques";
 import Billetterie from "../reusable-components/billetterie";
 import Footer1 from "../reusable-components/footer";
@@ -91,7 +91,6 @@ function Home(props) {
           infoGroupes={{
             groupe1: { ...infoGroupes["groupe4"] },
             groupe2: { ...infoGroupes["groupe5"] },
-            groupe3: { ...infoGroupes["groupe6"] },
           }}
         />
       </div>
