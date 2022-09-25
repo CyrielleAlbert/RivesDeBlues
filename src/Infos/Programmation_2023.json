@@ -1,24 +1,24 @@
 ﻿{
     "groupe1": {
-        "nom": "An Diaz & Yokatta Brothers",
-        "horaire": "19h00",
-        "image": "/Images/Groupes/Groupes_2023/An_diaz.jpeg",
-        "description": ["An Díaz & Yokatta Brothers est un quartet de blues composé d'une jeune chanteuse originaire de Buenos Aires et aux racines gospel, accompagnée de 3 bluesmen du Nord de la France nourris aux grooves de la Nouvelle Orleans. Ce nouvel opus, intitulé Alana, est composé de créations originales d’An Díaz, paroles et musiques. Leur show présente les créations de l’album et des reprises de standards du blues servis par la voix puissante de la chanteuse et soutenus par l’énergie et la spontanéité du groupe. C’est un blues moderne qui rend hommage aux origines. Les Rendez Vous de l'Erdre 2022 ne se sont pas trompés. Le public et le Jury du tremplin ont appréciés, célébrés ce quartet qui se trouve programmé pour de nombreux festivals en 2023. ", "AN DÍAZ - vocals, MANUSLIDE - guitar/vocals, JULIEN MAHIEUX - drums/vocals, STEPHANE BIHAN - double bass/vocals"],
-        "website": "https://linktr.ee/yokattabrothers"
-    },
-    "groupe2": {
         "nom": "Armel Dupas Trio",
         "horaire": "20h30",
         "image": "/Images/Groupes/Groupes_2023/Armel_dupas_trio.jpg",
         "description": ["Des festivals : Jazz in Marciac – Montreux Jazz Festival – Jazz à Vienne … des albums , des tournées internationales : Europe , Asie, Amérique du Nord... Sideman, compositeur de musiques de films. Armel Dupas est tout cela ! Rives de Blues est ravi de programmer un trio heureux et fabuleux..des musiciens de très grand talent sur la scène de la salle Hervé Bazin pour une soirée unique.", "Armel Dupas - Piano, Christophe Piot - Batterie. Jules Billé– Contrebasse "],
         "website": "https://www.armeldupas.com"
     },
-    "groupe3": {
+    "groupe2": {
         "nom": "Alex Grenier Quartet",
         "horaire": "21h30",
         "image": "/Images/Groupes/Groupes_2023/alex_grenier.jpg",
-        "description": ["JAZZ NEWS ( J/A 2022) le surnomme «  le pistolero de la scène jazz hexagonale». Ses influences vont de Mike Stern à Stevie Ray Vaughan, il aime se produire en souriant afin de vous montrer le chemin du plaisir musical. Alex Grenier est un artiste solaire sur scène... De festivals(Nice, Sète…) en tournées internationales: USA, Japon, Canada, Europe, ce quartet vous entrainera dans un groove enivrant en y intégrant de magnifiques balades...", "Alex grenier – Guitares, Mathieu Debordes – Piano/Fender Rhodes, Hervé Moquet– Basse, Franck Durand – Batterie "],
+        "description": ["JAZZ NEWS ( J/A 2022) le surnomme «  le pistolero de la scène jazz hexagonale». Ses influences vont de Mike Stern à Stevie Ray Vaughan, il aime se produire en souriant afin de vous montrer le chemin du plaisir musical. Alex Grenier est un artiste solaire sur scène... De festivals(Nice, Sète…) en tournées internationales: USA, Japon, Canada, Europe, ce quartet vous entrainera dans un groove enivrant en y intégrant de magnifiques ballades...", "Alex grenier – Guitares, Mathieu Debordes – Piano/Fender Rhodes, Hervé Moquet– Basse, Franck Durand – Batterie "],
         "website": "http:/www.alexgrenier.fr/"
+    },
+    "groupe3": {
+        "nom": "An Diaz & Yokatta Brothers",
+        "horaire": "19h00",
+        "image": "/Images/Groupes/Groupes_2023/An_diaz.jpeg",
+        "description": ["An Díaz & Yokatta Brothers est un quartet de blues composé d'une jeune chanteuse originaire de Buenos Aires et aux racines gospel, accompagnée de 3 bluesmen du Nord de la France nourris aux grooves de la Nouvelle Orleans. Ce nouvel opus, intitulé Alana, est composé de créations originales d’An Díaz, paroles et musiques. Leur show présente les créations de l’album et des reprises de standards du blues servis par la voix puissante de la chanteuse et soutenus par l’énergie et la spontanéité du groupe. C’est un blues moderne qui rend hommage aux origines. Les Rendez Vous de l'Erdre 2022 ne se sont pas trompés. Le public et le Jury du tremplin ont appréciés, célébrés ce quartet qui se trouve programmé pour de nombreux festivals en 2023. ", "AN DÍAZ - vocals, MANUSLIDE - guitar/vocals, JULIEN MAHIEUX - drums/vocals, STEPHANE BIHAN - double bass/vocals"],
+        "website": "https://linktr.ee/yokattabrothers"
     },
     "groupe4": {
         "nom": "Freddy Miller",

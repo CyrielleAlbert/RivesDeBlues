@@ -19,7 +19,7 @@ function InfosPratiques() {
                 </div>
             </div> */}
             <div className="titre-info-p">Restauration sur place</div>
-            <div style={{fontFamily:"Roboto",fontSize:20,marginLeft:20}}>{"Un food Truck  ainsi qu'une buvette seront présents sur place."}</div>
+            <div style={{fontFamily:"Roboto",fontSize:20,marginLeft:20}}>{"Un food Truck sera présent sur place."}</div>
             <div className="titre-info-p">Accès</div>
             <div className="content-5">
                 <div>Salle Hervé Bazin,</div>
