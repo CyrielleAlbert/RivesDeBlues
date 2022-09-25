@@ -29,7 +29,7 @@ function Home() {
     <div>
       <Header style={{ zIndex: 100 }} buttonCallback={executeScroll}/>
       <div className="background">
-        <img src="/Images/background.png" />
+        <img src="/Images/affiche-festival-RDB.png" />
       </div>
       <div className="content" stle={{ width: window.innerWidth }}>
         <div className="accroche">
@@ -81,14 +81,14 @@ function Home() {
           infoGroupes={{
             groupe1: { ...infoGroupes["groupe1"] },
             groupe2: { ...infoGroupes["groupe2"] },
-            groupe3: { ...infoGroupes["groupe3"] },
           }}
         />
         <Programme
           titre={"Samedi soir"}
           infoGroupes={{
-            groupe1: { ...infoGroupes["groupe4"] },
-            groupe2: { ...infoGroupes["groupe5"] },
+            groupe1: { ...infoGroupes["groupe3"] },
+            groupe2: { ...infoGroupes["groupe4"] },
+            groupe3: { ...infoGroupes["groupe5"] },
           }}
         />
       </div>

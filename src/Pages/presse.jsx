@@ -6,7 +6,7 @@ import { useHistory } from "react-router-dom";
 export default function Presse(){
     const history = useHistory();
   return (
-    <div style={{height:window.innerHeight,backgroundColor:"#000000"}}>
+    <div style={{height:window.innerHeight,backgroundColor:"white"}}>
       <Header style={{ zIndex: 100 }} buttonCallback={()=>history.push("/")}/>
       <div style={{ marginTop:"3rem",paddingTop:"3rem", paddingLeft:"3rem",backgroundColor:"white", height:"70%", fontFamily:"Roboto"}}>
           <h2>Presse</h2>
@@ -22,7 +22,7 @@ export default function Presse(){
                 </ul>
             {"Pour le télécharger, cliquez "}<a href={"/dossier-presse-RDB.pdf"} download="Dossier-presse-RDB.pdf">ici</a>{"."}
           </div>
-          <div>{"Pour télécharger l'affiche du festival, cliquez "}<a href={"/affiche-festival-RDB.pdf"} download="affiche-festival-RDB.pdf">ici</a>{"."}</div>
+          <div>{"Pour télécharger l'affiche du festival, cliquez "}<a href={"/affiche-festival-RDB.jpg"} download="affiche-festival-RDB.jpg">ici</a>{"."}</div>
       </div>
       <Footer1 />
     </div>
