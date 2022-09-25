@@ -18,7 +18,8 @@ const LINK_TM =
 function Home(props) {
   const progScroll = useRef(null);
   const ticketScroll = useRef(null);
-
+  const today = Date.now()
+  console.log(today)
   function executeScroll(scroll) {
     if (scroll === "prog") {
       window.scrollTo(0, progScroll.current.offsetTop);
@@ -97,7 +98,7 @@ function Home(props) {
       <div>
         <div
           className="title"
-          style={{ color: "white", backgroundColor: "#0a0e31" }}
+          style={{ color: "white", backgroundColor: "#E35944" }}
           ref={ticketScroll}
         >
           <hr

@@ -2,7 +2,7 @@
 
 function Programme(props) {
      return (
-          <div style={{ fontFamily: 'Roboto', backgroundColor: "#0A0E31", color: "white", background: "linear-gradient(#E35944, #F19135)" }}>
+          <div style={{ fontFamily: 'Roboto', color: "white", background: "linear-gradient(#E35944, #F19135)" }}>
                <div className="titre">{props.titre}</div>
                <div style={{display:"flex", height:400, width:"100%"}}>
                     <div >

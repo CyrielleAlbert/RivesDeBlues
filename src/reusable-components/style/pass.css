@@ -5,7 +5,7 @@
 }
 
 .intitule {
-    background-color: #95C0FF;
+    background-color: #F19135;
     font-size: 25px;
     font-family: 'Roboto';
     display: flex;
@@ -45,8 +45,8 @@
 }
 
 .CTA-3 {
-    background-color: #141948;
-    color: white;
+    background-color: #F19135;
+    color: black;
     width: fit-content;
     padding: 5px 1.25rem 0.625rem 1.25rem;
     border-radius: 6px;
