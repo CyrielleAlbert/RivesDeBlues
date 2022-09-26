@@ -8,7 +8,7 @@ function Programme(props) {
                     <div >
                          <img src={props.infoGroupes["groupe1"]["image"]} style={{maxHeight:"100%",width:"auto"}} />
                     </div>
-                    <div style={{color:'white'}}>
+                    <div>
                          <div className="nomGr">{"" + props.infoGroupes["groupe1"]["horaire"] + " - " + props.infoGroupes["groupe1"]["nom"]}</div>
                          {props.infoGroupes["groupe1"]["description"].map(text =>{
                               return(<div className="desc">{text}</div>)
