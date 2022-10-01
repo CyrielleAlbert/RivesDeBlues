@@ -15,18 +15,19 @@
 
 .info {
     color: black;
-    background-color: white;
+    background-color: #E35944;
     font-family: "Roboto";
-    padding: 0.625rem;
-    width: 48rem;
-    border-radius: 0.75rem;
+    padding: 4rem;
 }
 
 .info2 {
     font-size: 1.5rem;
     margin-top: 0.625rem;
     margin-bottom: 0.625rem;
+    border-radius: 0.75rem;
+    background-color: white;
     display: flex;
+    padding: 2rem;
 }
 
 @media (max-width: 900px) {
