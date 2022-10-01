@@ -11,12 +11,11 @@ import Partenaires from "../reusable-components/partenaires";
 import { useRef } from "react";
 //TODO revoir les font-size (harmoniser)
 //TODO revoir les marges (harmoniser)
-
+const LINK_TM = "https://www.billetweb.fr/rives-de-blues-co1"
 function Home() {
   const progScroll = useRef(null);
   const ticketScroll = useRef(null);
-  const today = Date.now()
-  console.log(today)
+
   function executeScroll(scroll) {
     if (scroll === "prog") {
       window.scrollTo(0, progScroll.current.offsetTop);
@@ -29,20 +28,20 @@ function Home() {
     <div>
       <Header style={{ zIndex: 100 }} buttonCallback={executeScroll}/>
       <div className="background">
-        <img src="/Images/affiche-festival-RDB.png" />
+        <img src="/Images/background.png" />
       </div>
-      <div className="content" stle={{ width: window.innerWidth }}>
+      <div className="content">
         <div className="accroche">
           {
             "Le festival Rives de Blues & Co revient pour une nouvelle édition. Rendez-vous le 01 Octobre pour l'ouverture de la billetterie !"
           }
         </div>
         <div className="countdown">
-          <Countdown timestamp={1664611200}/>
+          <Countdown timestamp={1683910800}/>
         </div>
-        {/* <a className="bouton1" href={LINK_TM}>
+        <a className="bouton1" href={LINK_TM}>
           Billetterie ouverte !{" "}
-        </a> */}
+        </a>
       </div>
       <div>
         <div className="title" ref={progScroll}>

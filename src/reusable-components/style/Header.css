@@ -1,7 +1,7 @@
 ﻿.main {
     display: flex;
     flex-direction: row;
-    background: linear-gradient(180deg, #E35944 0%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(180deg, #3E4D4C 0%, rgba(0, 0, 0, 0) 100%);
     color: white;
     height: 6rem;
     font-size: 1.25rem;
@@ -63,15 +63,16 @@
         padding: 0;
     }
     .logo {
-        margin-left: 20%;
-        width: 60%;
+        width: 100%;
+        min-width: 210px;
         padding: 1.25rem;
         display: flex;
         align-items: baseline;
         justify-content: center;
     }
     .logo img {
-        width: 100%;
+        width: 30%;
+        min-width: 200px;
     }
     .programme {
         width: 0%;
