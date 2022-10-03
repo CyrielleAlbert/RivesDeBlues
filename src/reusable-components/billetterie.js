@@ -16,7 +16,7 @@ function Billetterie() {
               <Pass
                 label="Pass 2 jours"
                 prix="30€"
-                reduction="35€"
+                reduction="40€"
                 lien={LINK_BILLET}
               ></Pass>
             </div>
