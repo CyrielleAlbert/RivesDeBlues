@@ -1,0 +1,21 @@
+.slide{
+    display: flex;
+    flex-direction: row;
+    justify-content: normal;
+    align-items:center;
+    overflow-x: auto;
+    max-width: 100%;
+    padding-left: 15px;
+    column-gap: 10px;
+}
+@media (max-width: 900px) {
+    .slide {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 80%;
+        padding: 15px;
+        column-gap: 10px;
+    }
+}
