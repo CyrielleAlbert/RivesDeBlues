@@ -8,14 +8,15 @@ import Billetterie from "../reusable-components/billetterie";
 import Footer1 from "../reusable-components/footer";
 import { ReactComponent as BilletSVG } from "./../Icons/coupon.svg";
 import Partenaires from "../reusable-components/partenaires";
-import { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 //TODO revoir les font-size (harmoniser)
 //TODO revoir les marges (harmoniser)
-const LINK_TM = "https://www.billetweb.fr/rives-de-blues-co1"
-function Home() {
+const LINK_TM = "https://www.billetweb.fr/rives-de-blues-co1";
+
+const Home = () => {
   const progScroll = useRef(null);
   const ticketScroll = useRef(null);
-
+  const [width, setWidth] = React.useState(window.innerWidth);
   function executeScroll(scroll) {
     if (scroll === "prog") {
       window.scrollTo(0, progScroll.current.offsetTop);
@@ -24,20 +25,27 @@ function Home() {
     }
   }
 
+  useEffect(() => {
+    setWidth(window.innerWidth);
+  }, [window.innerWidth]);
+
   return (
     <div>
-      <Header style={{ zIndex: 100 }} buttonCallback={executeScroll}/>
+      <Header style={{ zIndex: 100 }} buttonCallback={executeScroll} />
       <div className="background">
         <img src="/Images/background.png" />
       </div>
       <div className="content">
         <div className="accroche">
-          {
-            "Le festival Rives de Blues & Co revient pour une nouvelle édition. Rendez-vous le 01 Octobre pour l'ouverture de la billetterie !"
-          }
+          <span>
+            {
+              "Le festival Rives de Blues & Co revient pour une nouvelle édition."
+            }
+          </span>
+          <span style={{ marginTop: 15 }}>{"Le 12 et 13 mai 2023"}</span>
         </div>
         <div className="countdown">
-          <Countdown timestamp={1683910800}/>
+          <Countdown timestamp={1683910800} />
         </div>
         <a className="bouton1" href={LINK_TM}>
           Billetterie ouverte !{" "}
@@ -193,5 +201,5 @@ function Home() {
       <Footer1 />
     </div>
   );
-}
+};
 export default Home;

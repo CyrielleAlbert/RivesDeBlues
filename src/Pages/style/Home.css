@@ -17,6 +17,7 @@
     align-items: center;
     text-align: center;
     font-family: "Roboto";
+    width:100%;
     /* background-color: white;
     padding: 3rem;
     margin-left: 17%;
@@ -31,6 +32,7 @@
     font-weight: bold;
     color: white;
     display: flex;
+    flex-direction: column;
     width: 60%;
 }
 
@@ -84,9 +86,12 @@
     background-color: #E35944;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1050px) {
     .countdown {
         display: none;
+    }
+    .content {
+        top: 10rem;
     }
     .background {
         position: relative;
