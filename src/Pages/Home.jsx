@@ -16,7 +16,6 @@ const LINK_TM = "https://www.billetweb.fr/rives-de-blues-co1";
 const Home = () => {
   const progScroll = useRef(null);
   const ticketScroll = useRef(null);
-  const [width, setWidth] = React.useState(window.innerWidth);
   function executeScroll(scroll) {
     if (scroll === "prog") {
       window.scrollTo(0, progScroll.current.offsetTop);
@@ -24,10 +23,6 @@ const Home = () => {
       window.scrollTo(0, ticketScroll.current.offsetTop);
     }
   }
-
-  useEffect(() => {
-    setWidth(window.innerWidth);
-  }, [window.innerWidth]);
 
   return (
     <div>

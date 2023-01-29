@@ -4,8 +4,15 @@ import "./style/program.css";
 const Programme = (props) => {
   const [width, setWidth] = useState(window.innerWidth);
   useEffect(() => {
-    setWidth(window.innerWidth);
-  }, [window.innerWidth]);
+    function handleResize() {
+      setWidth(window.innerWidth);
+    }
+    window.addEventListener("resize", handleResize);
+
+    return (_) => {
+      window.removeEventListener("resize", handleResize);
+    };
+  });
   if (width < 900) {
     return (
       <div
