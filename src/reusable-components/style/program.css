@@ -12,28 +12,15 @@
   flex-direction: row;
 }
 
-.moitie1 {
-  width: 50%;
-  overflow: hidden;
+.artiste {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  height:400px;
+  width: 100%;
 }
 
-.moitie2 {
-  width: 50%;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-}
-.moitie4 {
-  width: 50%;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  /* justify-content: center;
-  align-items: center; */
+.image{
+  max-height: 100%;
+  width:auto;
 }
 
 .desc {
@@ -80,29 +67,19 @@
     display: flex;
     flex-direction: column;
   }
-
-  .moitie1 {
-    width: 100%;
-  }
-
-  .moitie1 img {
-    width: 100%;
-    height: auto;
-  }
-  .moitie2 {
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-  }
-  .moitie3 {
+  .artiste {
     display: flex;
+    flex-direction: column;
+    height: 100%;
   }
-  .moitie4 {
-    display: none;
-    justify-content: center;
-    align-items: center;
+  .image{
+    margin-left:10%;
+    max-width: 80%;
+    height:auto;
   }
-
+  .nomGr{
+    text-align: center;
+  }
   .desc {
     font-size: 1rem;
   }
