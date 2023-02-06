@@ -2,6 +2,7 @@
 import "./style/program.css";
 
 const Programme = (props) => {
+  console.log("helloworld");
   const [width, setWidth] = useState(window.innerWidth);
   useEffect(() => {
     function handleResize() {
